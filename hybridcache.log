@@ -1,0 +1,1099 @@
+2025-10-02 21:57:43,008 - INFO - ============================================================
+2025-10-02 21:57:43,009 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 21:57:43,009 - INFO - ============================================================
+2025-10-02 21:57:43,009 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 21:57:43,009 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 21:57:44,010 - INFO - ✔ quart — установлено
+2025-10-02 21:57:44,010 - INFO - ✔ quart_wtf — установлено
+2025-10-02 21:57:44,010 - INFO - ✔ aiofiles — установлено
+2025-10-02 21:57:44,011 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 21:57:44,011 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 21:57:44,012 - INFO - ✔ redis — установлено
+2025-10-02 21:57:44,012 - INFO - ✔ cryptography — установлено
+2025-10-02 21:57:44,012 - INFO - ✔ sklearn — установлено
+2025-10-02 21:57:44,013 - INFO - ✔ numpy — установлено
+2025-10-02 21:57:44,013 - INFO - ✔ boto3 — установлено
+2025-10-02 21:57:44,013 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 21:57:45,014 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 21:57:45,015 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 21:57:45,015 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 21:57:45,015 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 21:57:56,163 - INFO - ============================================================
+2025-10-02 21:57:56,163 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 21:57:56,163 - INFO - ============================================================
+2025-10-02 21:57:56,164 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 21:57:56,164 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 21:57:57,165 - INFO - ✔ quart — установлено
+2025-10-02 21:57:57,165 - INFO - ✔ quart_wtf — установлено
+2025-10-02 21:57:57,166 - INFO - ✔ aiofiles — установлено
+2025-10-02 21:57:57,166 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 21:57:57,166 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 21:57:57,166 - INFO - ✔ redis — установлено
+2025-10-02 21:57:57,167 - INFO - ✔ cryptography — установлено
+2025-10-02 21:57:57,167 - INFO - ✔ sklearn — установлено
+2025-10-02 21:57:57,169 - INFO - ✔ numpy — установлено
+2025-10-02 21:57:57,169 - INFO - ✔ boto3 — установлено
+2025-10-02 21:57:57,170 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 21:57:58,209 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 21:57:58,231 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 21:57:58,238 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 21:57:58,238 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:10:34,637 - INFO - ============================================================
+2025-10-02 22:10:34,637 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:10:34,638 - INFO - ============================================================
+2025-10-02 22:10:34,638 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:10:34,638 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:10:35,639 - INFO - ✔ quart — установлено
+2025-10-02 22:10:35,639 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:10:35,639 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:10:35,640 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:10:35,640 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:10:35,640 - INFO - ✔ redis — установлено
+2025-10-02 22:10:35,640 - INFO - ✔ cryptography — установлено
+2025-10-02 22:10:35,640 - INFO - ✔ sklearn — установлено
+2025-10-02 22:10:35,640 - INFO - ✔ numpy — установлено
+2025-10-02 22:10:35,641 - INFO - ✔ boto3 — установлено
+2025-10-02 22:10:35,641 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:10:36,642 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:10:36,642 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:10:36,642 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:10:36,642 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:10:36,643 - INFO - Используется профиль: corporate
+2025-10-02 22:10:36,643 - INFO - SSD-кеш: C:\HybridCache\ssd — холодное хранилище: C:\HybridCache\cold
+
+2025-10-02 22:11:07,338 - INFO - ============================================================
+2025-10-02 22:11:07,338 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:11:07,338 - INFO - ============================================================
+2025-10-02 22:11:07,338 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:11:07,339 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:11:08,340 - INFO - ✔ quart — установлено
+2025-10-02 22:11:08,340 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:11:08,340 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:11:08,341 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:11:08,341 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:11:08,341 - INFO - ✔ redis — установлено
+2025-10-02 22:11:08,341 - INFO - ✔ cryptography — установлено
+2025-10-02 22:11:08,341 - INFO - ✔ sklearn — установлено
+2025-10-02 22:11:08,342 - INFO - ✔ numpy — установлено
+2025-10-02 22:11:08,342 - INFO - ✔ boto3 — установлено
+2025-10-02 22:11:08,343 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:11:09,344 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:11:09,345 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:11:09,345 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:11:09,345 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:15:34,067 - INFO - ============================================================
+2025-10-02 22:15:34,068 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:15:34,068 - INFO - ============================================================
+2025-10-02 22:15:34,068 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:15:34,068 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:15:35,069 - INFO - ✔ quart — установлено
+2025-10-02 22:15:35,069 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:15:35,070 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:15:35,070 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:15:35,070 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:15:35,070 - INFO - ✔ redis — установлено
+2025-10-02 22:15:35,070 - INFO - ✔ cryptography — установлено
+2025-10-02 22:15:35,071 - INFO - ✔ sklearn — установлено
+2025-10-02 22:15:35,071 - INFO - ✔ numpy — установлено
+2025-10-02 22:15:35,071 - INFO - ✔ boto3 — установлено
+2025-10-02 22:15:35,071 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:15:36,071 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:15:36,072 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:15:36,072 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:15:36,072 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:15:36,073 - INFO - Используется профиль: corporate
+2025-10-02 22:15:36,073 - INFO - SSD-кеш: C:\HybridCache\ssd — холодное хранилище: C:\HybridCache\cold
+
+2025-10-02 22:15:43,066 - INFO - ============================================================
+2025-10-02 22:15:43,067 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:15:43,067 - INFO - ============================================================
+2025-10-02 22:15:43,068 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:15:43,068 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:15:44,069 - INFO - ✔ quart — установлено
+2025-10-02 22:15:44,070 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:15:44,070 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:15:44,070 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:15:44,071 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:15:44,071 - INFO - ✔ redis — установлено
+2025-10-02 22:15:44,071 - INFO - ✔ cryptography — установлено
+2025-10-02 22:15:44,072 - INFO - ✔ sklearn — установлено
+2025-10-02 22:15:44,072 - INFO - ✔ numpy — установлено
+2025-10-02 22:15:44,072 - INFO - ✔ boto3 — установлено
+2025-10-02 22:15:44,072 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:15:45,074 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:15:45,074 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:15:45,074 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:15:45,075 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:18:49,578 - INFO - ============================================================
+2025-10-02 22:18:49,606 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:18:49,616 - INFO - ============================================================
+2025-10-02 22:18:49,616 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:18:49,617 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:18:50,617 - INFO - ✔ quart — установлено
+2025-10-02 22:18:50,618 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:18:50,618 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:18:50,618 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:18:50,618 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:18:50,618 - INFO - ✔ redis — установлено
+2025-10-02 22:18:50,619 - INFO - ✔ cryptography — установлено
+2025-10-02 22:18:50,619 - INFO - ✔ sklearn — установлено
+2025-10-02 22:18:50,619 - INFO - ✔ numpy — установлено
+2025-10-02 22:18:50,619 - INFO - ✔ boto3 — установлено
+2025-10-02 22:18:50,619 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:18:51,620 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:18:51,620 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:18:51,620 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:18:51,621 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:18:51,621 - INFO - Используется профиль: corporate
+2025-10-02 22:18:51,621 - INFO - SSD-кеш: C:\HybridCache\ssd — холодное хранилище: C:\HybridCache\cold
+
+2025-10-02 22:19:18,910 - INFO - ============================================================
+2025-10-02 22:19:18,910 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:19:18,911 - INFO - ============================================================
+2025-10-02 22:19:18,911 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:19:18,911 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:19:19,911 - INFO - ✔ quart — установлено
+2025-10-02 22:19:19,912 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:19:19,912 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:19:19,912 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:19:19,913 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:19:19,913 - INFO - ✔ redis — установлено
+2025-10-02 22:19:19,913 - INFO - ✔ cryptography — установлено
+2025-10-02 22:19:19,913 - INFO - ✔ sklearn — установлено
+2025-10-02 22:19:19,913 - INFO - ✔ numpy — установлено
+2025-10-02 22:19:19,914 - INFO - ✔ boto3 — установлено
+2025-10-02 22:19:19,914 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:19:20,914 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:19:20,915 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:19:20,915 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:19:20,915 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:21:43,832 - INFO - ============================================================
+2025-10-02 22:21:43,833 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:21:43,833 - INFO - ============================================================
+2025-10-02 22:21:43,833 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:21:43,833 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:21:44,834 - INFO - ✔ quart — установлено
+2025-10-02 22:21:44,835 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:21:44,835 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:21:44,835 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:21:44,835 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:21:44,835 - INFO - ✔ redis — установлено
+2025-10-02 22:21:44,835 - INFO - ✔ cryptography — установлено
+2025-10-02 22:21:44,836 - INFO - ✔ sklearn — установлено
+2025-10-02 22:21:44,836 - INFO - ✔ numpy — установлено
+2025-10-02 22:21:44,836 - INFO - ✔ boto3 — установлено
+2025-10-02 22:21:44,836 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:21:45,837 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:21:45,837 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:21:45,837 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:21:45,837 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:21:45,838 - INFO - Используется профиль: corporate
+2025-10-02 22:21:45,838 - INFO - SSD-кеш: C:\HybridCache\ssd — холодное хранилище: C:\HybridCache\cold
+
+2025-10-02 22:21:49,946 - WARNING - Redis недоступен, используем in-memory кэш: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+2025-10-02 22:21:49,949 - INFO - HybridCache сервер запущен на http://127.0.0.1:8080
+2025-10-02 22:21:49,950 - INFO - Откройте браузер и перейдите по адресу: http://127.0.0.1:8080
+2025-10-02 22:21:50,521 - INFO - Running on http://127.0.0.1:8080 (CTRL + C to quit)
+2025-10-02 22:21:50,770 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:21:50,773 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:21:50,787 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:21:58,867 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:21:58,869 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:21:58,878 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:22:00,319 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:22:00,321 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:22:00,325 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:22:03,496 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:22:03,499 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:22:03,506 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:22:59,046 - INFO - ============================================================
+2025-10-02 22:22:59,085 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:22:59,086 - INFO - ============================================================
+2025-10-02 22:22:59,086 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:22:59,086 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:23:00,088 - INFO - ✔ quart — установлено
+2025-10-02 22:23:00,088 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:23:00,088 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:23:00,088 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:23:00,089 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:23:00,089 - INFO - ✔ redis — установлено
+2025-10-02 22:23:00,089 - INFO - ✔ cryptography — установлено
+2025-10-02 22:23:00,089 - INFO - ✔ sklearn — установлено
+2025-10-02 22:23:00,089 - INFO - ✔ numpy — установлено
+2025-10-02 22:23:00,089 - INFO - ✔ boto3 — установлено
+2025-10-02 22:23:00,089 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:23:01,090 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:23:01,090 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:23:01,091 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:23:01,091 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:23:01,091 - INFO - Используется профиль: corporate
+2025-10-02 22:23:01,091 - INFO - SSD-кеш: C:\HybridCache\ssd — холодное хранилище: C:\HybridCache\cold
+
+2025-10-02 22:23:05,173 - WARNING - Redis недоступен, используем in-memory кэш: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+2025-10-02 22:23:05,176 - INFO - HybridCache сервер запущен на http://127.0.0.1:8080
+2025-10-02 22:23:05,176 - INFO - Откройте браузер и перейдите по адресу: http://127.0.0.1:8080
+2025-10-02 22:23:05,709 - INFO - Running on http://127.0.0.1:8080 (CTRL + C to quit)
+2025-10-02 22:23:05,907 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:23:05,911 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:23:05,916 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:23:11,483 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:23:11,485 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:23:11,488 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:23:46,531 - INFO - ============================================================
+2025-10-02 22:23:46,531 - INFO - HybridCache — Установщик и первый запуск
+2025-10-02 22:23:46,531 - INFO - ============================================================
+2025-10-02 22:23:46,531 - INFO - 
+Для работы HybridCache требуются Python-библиотеки:
+2025-10-02 22:23:46,532 - INFO -   Quart, quart-wtf, aiofiles, SQLAlchemy, prometheus-flask-exporter, redis, cryptography, scikit-learn, numpy, boto3
+
+2025-10-02 22:23:47,533 - INFO - ✔ quart — установлено
+2025-10-02 22:23:47,533 - INFO - ✔ quart_wtf — установлено
+2025-10-02 22:23:47,533 - INFO - ✔ aiofiles — установлено
+2025-10-02 22:23:47,534 - INFO - ✔ sqlalchemy — установлено
+2025-10-02 22:23:47,534 - INFO - ✔ prometheus_flask_exporter — установлено
+2025-10-02 22:23:47,534 - INFO - ✔ redis — установлено
+2025-10-02 22:23:47,534 - INFO - ✔ cryptography — установлено
+2025-10-02 22:23:47,535 - INFO - ✔ sklearn — установлено
+2025-10-02 22:23:47,535 - INFO - ✔ numpy — установлено
+2025-10-02 22:23:47,535 - INFO - ✔ boto3 — установлено
+2025-10-02 22:23:47,535 - INFO - Все необходимые библиотеки уже установлены.
+
+2025-10-02 22:23:48,535 - INFO - Выберите сценарий использования HybridCache:
+2025-10-02 22:23:48,536 - INFO - 1. Корпоративный (офисы, базы данных, документооборот)
+2025-10-02 22:23:48,536 - INFO - 2. Домашний ПК (фото, видео, музыка, игры)
+2025-10-02 22:23:48,537 - INFO - 3. ПК для ИИ/ML (модели, датасеты, эксперименты)
+2025-10-02 22:23:48,537 - INFO - Используется профиль: corporate
+2025-10-02 22:23:48,537 - INFO - SSD-кеш: C:\HybridCache\ssd — холодное хранилище: C:\HybridCache\cold
+
+2025-10-02 22:23:52,620 - WARNING - Redis недоступен, используем in-memory кэш: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+2025-10-02 22:23:52,623 - INFO - HybridCache сервер запущен на http://127.0.0.1:8080
+2025-10-02 22:23:52,623 - INFO - Откройте браузер и перейдите по адресу: http://127.0.0.1:8080
+2025-10-02 22:23:53,225 - INFO - Running on http://127.0.0.1:8080 (CTRL + C to quit)
+2025-10-02 22:23:53,339 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:23:53,347 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:23:53,354 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:23:55,027 - ERROR - Exception on request GET /
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1650, in handle_request
+    return await self.full_dispatch_request(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1675, in full_dispatch_request
+    result = await self.handle_user_exception(error)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1107, in handle_user_exception
+    raise error
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1671, in full_dispatch_request
+    result = await self.preprocess_request(request_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1695, in preprocess_request
+    result = await self.ensure_async(function)()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart_wtf\csrf.py", line 59, in csrf_protect
+    if not current_app.config["WTF_CSRF_ENABLED"]:
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'WTF_CSRF_ENABLED'
+2025-10-02 22:23:55,029 - ERROR - Request finalizing errored
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1735, in finalize_request
+    response = await self.process_response(response, request_context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1762, in process_response
+    response = await self.ensure_async(function)(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\prometheus_flask_exporter\__init__.py", line 465, in after_request
+    if hasattr(request, 'prom_do_not_track') or hasattr(request, 'prom_exclude_all'):
+       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2025-10-02 22:23:55,032 - ERROR - Error in ASGI Framework
+Traceback (most recent call last):
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\asyncio\task_group.py", line 27, in _handle
+    await app(scope, receive, send, sync_spawn, call_soon)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\hypercorn\app_wrappers.py", line 34, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1902, in __call__
+    await self.asgi_app(scope, receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1928, in asgi_app
+    await asgi_handler(receive, send)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 51, in __call__
+    _raise_exceptions(done)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 353, in _raise_exceptions
+    raise task.exception()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\asgi.py", line 90, in handle_request
+    response = await self.app.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1648, in handle_request
+    async with self.request_context(request) as request_context:
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 87, in __aexit__
+    await self.auto_pop(exc_value)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 80, in auto_pop
+    await self.pop(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\ctx.py", line 148, in pop
+    await self.app.do_teardown_request(exc, self)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\app.py", line 1246, in do_teardown_request
+    await self.ensure_async(function)(exc)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\quart\utils.py", line 61, in _wrapper
+    result = await loop.run_in_executor(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, copy_context().run, partial(func, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 1190, in __release_context
+    self.context.reset()
+    ^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\flask_limiter\extension.py", line 484, in context
+    if not hasattr(ctx, "_limiter_request_context"):
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 311, in __get__
+    obj = instance._get_current_object()
+  File "C:\Users\Артем\доп проект\hybridcache_env\Lib\site-packages\werkzeug\local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
