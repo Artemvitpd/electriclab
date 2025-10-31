@@ -1,0 +1,20 @@
+{
+  "license_type": "enterprise",
+  "customer_id": "mega_corp",
+  "license_key": "MzBhYTc1OGQ2ZTc0NTFjYTljNTdiODIx",
+  "issued_at": "2025-10-14T22:39:12.656760",
+  "expires_at": "2027-10-14T22:39:12.656772",
+  "max_files": 1000000,
+  "max_cache_size_mb": 1000000,
+  "max_requests_per_hour": 1000000,
+  "features": [
+    "basic_caching",
+    "aes_encryption",
+    "gost_encryption",
+    "advanced_analytics",
+    "api_access",
+    "cluster_support"
+  ],
+  "version": "1.0",
+  "signature": "ab9b7852abf90f8c668404d2828a2c2686a526b33e1109d7ca5e8cea7c75754e"
+}

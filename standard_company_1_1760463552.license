@@ -1,0 +1,17 @@
+{
+  "license_type": "standard",
+  "customer_id": "company_1",
+  "license_key": "ZWQ5YzE4M2YxZGRiNDkzZTg0MDc2OTZh",
+  "issued_at": "2025-10-14T22:39:12.662978",
+  "expires_at": "2026-10-14T22:39:12.662989",
+  "max_files": 10000,
+  "max_cache_size_mb": 10000,
+  "max_requests_per_hour": 10000,
+  "features": [
+    "basic_caching",
+    "aes_encryption",
+    "gost_encryption"
+  ],
+  "version": "1.0",
+  "signature": "0d4b6212c0368adb86fb186f0d3c7e3fe6321b91dac2e339beef9221dc11e946"
+}

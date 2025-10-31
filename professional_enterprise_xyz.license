@@ -1,0 +1,18 @@
+{
+  "license_type": "professional",
+  "customer_id": "enterprise_xyz",
+  "license_key": "YmI3MTgyZjJjODZkZTBjZTdmNjg3NDVh",
+  "issued_at": "2025-10-14T22:39:12.653608",
+  "expires_at": "2026-10-14T22:39:12.653618",
+  "max_files": 100000,
+  "max_cache_size_mb": 100000,
+  "max_requests_per_hour": 100000,
+  "features": [
+    "basic_caching",
+    "aes_encryption",
+    "gost_encryption",
+    "advanced_analytics"
+  ],
+  "version": "1.0",
+  "signature": "02b0cd0efbfb5e1a08779728e72f3277b02c67cbf16d9f74cf23f533d886fd15"
+}

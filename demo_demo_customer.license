@@ -1,0 +1,16 @@
+{
+  "license_type": "demo",
+  "customer_id": "demo_customer",
+  "license_key": "NDIzZjExM2JiODQ3ZmQ4OWI3Njk3ZWUy",
+  "issued_at": "2025-10-14T22:39:12.649202",
+  "expires_at": "2025-11-13T22:39:12.649239",
+  "max_files": 100,
+  "max_cache_size_mb": 1024,
+  "max_requests_per_hour": 1000,
+  "features": [
+    "basic_caching",
+    "aes_encryption"
+  ],
+  "version": "1.0",
+  "signature": "ee6ab8927f2f4daadecd6f4578a010159b8fec19fadc54be288a400c07ab5665"
+}

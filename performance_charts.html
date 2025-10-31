@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HybridCache - Анализ производительности чтения/записи</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .chart-container {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .chart-title {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-left: 5px solid #3498db;
+        }
+        
+        .stat-card h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            font-size: 1.2em;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin: 10px 0;
+        }
+        
+        .stat-description {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .comparison-table th {
+            background: #34495e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .comparison-table td {
+            padding: 12px 15px;
+            text-align: center;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .comparison-table tr:hover {
+            background: #e8f4fd;
+        }
+        
+        .performance-indicator {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        
+        .performance-good {
+            background: #d5f4e6;
+            color: #27ae60;
+        }
+        
+        .performance-fair {
+            background: #fff3cd;
+            color: #f39c12;
+        }
+        
+        .performance-poor {
+            background: #f8d7da;
+            color: #e74c3c;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+        }
+        
+        .tabs {
+            display: flex;
+            background: #ecf0f1;
+            border-radius: 10px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: transparent;
+            border: none;
+            font-size: 1em;
+            font-weight: 600;
+        }
+        
+        .tab.active {
+            background: #3498db;
+            color: white;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 HybridCache Performance Analysis</h1>
+            <p>Сравнение скорости чтения и записи файлов</p>
+        </div>
+        
+        <div class="content">
+            <!-- Статистические карточки -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Максимальная скорость чтения</h3>
+                    <div class="stat-value">2,034.6</div>
+                    <div class="stat-description">MB/s (Безопасный кэш, 1MB)</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Максимальная скорость записи</h3>
+                    <div class="stat-value">1,533.9</div>
+                    <div class="stat-description">MB/s (Быстрый кэш, 10MB)</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Лучший общий показатель</h3>
+                    <div class="stat-value">951.6</div>
+                    <div class="stat-description">MB/s (Прямое I/O)</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Средняя производительность кэша</h3>
+                    <div class="stat-value">722.6</div>
+                    <div class="stat-description">MB/s (все методы кэширования)</div>
+                </div>
+            </div>
+            
+            <!-- Табы для переключения между графиками -->
+            <div class="tabs">
+                <button class="tab active" onclick="showTab('reading')">📖 Скорость чтения</button>
+                <button class="tab" onclick="showTab('writing')">📝 Скорость записи</button>
+                <button class="tab" onclick="showTab('comparison')">📊 Сравнение</button>
+                <button class="tab" onclick="showTab('table')">📋 Таблица данных</button>
+            </div>
+            
+            <!-- График скорости чтения -->
+            <div id="reading" class="tab-content active">
+                <div class="chart-container">
+                    <div class="chart-title">📖 Скорость чтения файлов (MB/s)</div>
+                    <div class="chart-wrapper">
+                        <canvas id="readingChart"></canvas>
+                    </div>
+                    <div class="legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #2ECC71;"></div>
+                            <span>Прямое I/O</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #E74C3C;"></div>
+                            <span>Быстрый кэш</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #3498DB;"></div>
+                            <span>Безопасный кэш</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #8B4513;"></div>
+                            <span>Гос. кэш</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- График скорости записи -->
+            <div id="writing" class="tab-content">
+                <div class="chart-container">
+                    <div class="chart-title">📝 Скорость записи файлов (MB/s)</div>
+                    <div class="chart-wrapper">
+                        <canvas id="writingChart"></canvas>
+                    </div>
+                    <div class="legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #2ECC71;"></div>
+                            <span>Прямое I/O</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #E74C3C;"></div>
+                            <span>Быстрый кэш</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #3498DB;"></div>
+                            <span>Безопасный кэш</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: #8B4513;"></div>
+                            <span>Гос. кэш</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Сравнительный график -->
+            <div id="comparison" class="tab-content">
+                <div class="chart-container">
+                    <div class="chart-title">📊 Сравнение производительности чтения и записи</div>
+                    <div class="chart-wrapper">
+                        <canvas id="comparisonChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Таблица данных -->
+            <div id="table" class="tab-content">
+                <div class="chart-container">
+                    <div class="chart-title">📋 Детальная таблица производительности</div>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Размер файла</th>
+                                <th>Метод</th>
+                                <th>Чтение (MB/s)</th>
+                                <th>Запись (MB/s)</th>
+                                <th>Прирост чтения</th>
+                                <th>Прирост записи</th>
+                            </tr>
+                        </thead>
+                        <tbody id="performanceTable">
+                            <!-- Данные будут заполнены JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Данные из тестирования
+        const fileSizes = ['1KB', '10KB', '100KB', '1MB', '10MB'];
+        const directIORead = [10.0, 109.3, 1127.5, 1842.4, 1668.9];
+        const fastCacheRead = [7.8, 84.2, 585.6, 1397.2, 1811.2];
+        const secureCacheRead = [8.5, 56.6, 583.0, 2034.6, 1752.6];
+        const govCacheRead = [9.6, 56.9, 714.5, 789.5, 1046.7];
+        
+        const directIOWrite = [4.0, 28.7, 250.5, 696.2, 1524.9];
+        const fastCacheWrite = [2.6, 30.1, 231.7, 845.4, 1533.9];
+        const secureCacheWrite = [3.5, 32.9, 158.1, 774.7, 1487.8];
+        const govCacheWrite = [2.5, 35.0, 282.6, 550.4, 931.8];
+        
+        // Настройки Chart.js
+        Chart.defaults.font.family = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+        Chart.defaults.color = '#2c3e50';
+        
+        // График скорости чтения
+        const readingCtx = document.getElementById('readingChart').getContext('2d');
+        new Chart(readingCtx, {
+            type: 'line',
+            data: {
+                labels: fileSizes,
+                datasets: [
+                    {
+                        label: 'Прямое I/O',
+                        data: directIORead,
+                        borderColor: '#2ECC71',
+                        backgroundColor: 'rgba(46, 204, 113, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Быстрый кэш',
+                        data: fastCacheRead,
+                        borderColor: '#E74C3C',
+                        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Безопасный кэш',
+                        data: secureCacheRead,
+                        borderColor: '#3498DB',
+                        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Гос. кэш',
+                        data: govCacheRead,
+                        borderColor: '#8B4513',
+                        backgroundColor: 'rgba(139, 69, 19, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleColor: 'white',
+                        bodyColor: 'white',
+                        borderColor: '#3498DB',
+                        borderWidth: 1,
+                        callbacks: {
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y.toFixed(1) + ' MB/s';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Скорость чтения (MB/s)',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.1)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Размер файла',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                }
+            }
+        });
+        
+        // График скорости записи
+        const writingCtx = document.getElementById('writingChart').getContext('2d');
+        new Chart(writingCtx, {
+            type: 'line',
+            data: {
+                labels: fileSizes,
+                datasets: [
+                    {
+                        label: 'Прямое I/O',
+                        data: directIOWrite,
+                        borderColor: '#2ECC71',
+                        backgroundColor: 'rgba(46, 204, 113, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Быстрый кэш',
+                        data: fastCacheWrite,
+                        borderColor: '#E74C3C',
+                        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Безопасный кэш',
+                        data: secureCacheWrite,
+                        borderColor: '#3498DB',
+                        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Гос. кэш',
+                        data: govCacheWrite,
+                        borderColor: '#8B4513',
+                        backgroundColor: 'rgba(139, 69, 19, 0.1)',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleColor: 'white',
+                        bodyColor: 'white',
+                        borderColor: '#3498DB',
+                        borderWidth: 1,
+                        callbacks: {
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y.toFixed(1) + ' MB/s';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Скорость записи (MB/s)',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.1)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Размер файла',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                },
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                }
+            }
+        });
+        
+        // Сравнительный график
+        const comparisonCtx = document.getElementById('comparisonChart').getContext('2d');
+        new Chart(comparisonCtx, {
+            type: 'bar',
+            data: {
+                labels: fileSizes,
+                datasets: [
+                    {
+                        label: 'Чтение - Прямое I/O',
+                        data: directIORead,
+                        backgroundColor: 'rgba(46, 204, 113, 0.7)',
+                        borderColor: '#2ECC71',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Запись - Прямое I/O',
+                        data: directIOWrite,
+                        backgroundColor: 'rgba(46, 204, 113, 0.3)',
+                        borderColor: '#2ECC71',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Чтение - Быстрый кэш',
+                        data: fastCacheRead,
+                        backgroundColor: 'rgba(231, 76, 60, 0.7)',
+                        borderColor: '#E74C3C',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Запись - Быстрый кэш',
+                        data: fastCacheWrite,
+                        backgroundColor: 'rgba(231, 76, 60, 0.3)',
+                        borderColor: '#E74C3C',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Чтение - Безопасный кэш',
+                        data: secureCacheRead,
+                        backgroundColor: 'rgba(52, 152, 219, 0.7)',
+                        borderColor: '#3498DB',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Запись - Безопасный кэш',
+                        data: secureCacheWrite,
+                        backgroundColor: 'rgba(52, 152, 219, 0.3)',
+                        borderColor: '#3498DB',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                        labels: {
+                            usePointStyle: true,
+                            padding: 20
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleColor: 'white',
+                        bodyColor: 'white',
+                        borderColor: '#3498DB',
+                        borderWidth: 1
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Скорость (MB/s)',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.1)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Размер файла',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Заполнение таблицы данных
+        function fillPerformanceTable() {
+            const tableBody = document.getElementById('performanceTable');
+            const methods = [
+                { name: 'Прямое I/O', read: directIORead, write: directIOWrite },
+                { name: 'Быстрый кэш', read: fastCacheRead, write: fastCacheWrite },
+                { name: 'Безопасный кэш', read: secureCacheRead, write: secureCacheWrite },
+                { name: 'Гос. кэш', read: govCacheRead, write: govCacheWrite }
+            ];
+            
+            for (let i = 0; i < fileSizes.length; i++) {
+                for (let method of methods) {
+                    const row = document.createElement('tr');
+                    
+                    const readChange = ((method.read[i] / directIORead[i] - 1) * 100);
+                    const writeChange = ((method.write[i] / directIOWrite[i] - 1) * 100);
+                    
+                    row.innerHTML = `
+                        <td>${fileSizes[i]}</td>
+                        <td>${method.name}</td>
+                        <td>${method.read[i].toFixed(1)}</td>
+                        <td>${method.write[i].toFixed(1)}</td>
+                        <td><span class="performance-indicator ${getPerformanceClass(readChange)}">${readChange.toFixed(1)}%</span></td>
+                        <td><span class="performance-indicator ${getPerformanceClass(writeChange)}">${writeChange.toFixed(1)}%</span></td>
+                    `;
+                    
+                    tableBody.appendChild(row);
+                }
+            }
+        }
+        
+        function getPerformanceClass(percentage) {
+            if (percentage > 5) return 'performance-good';
+            if (percentage > -10) return 'performance-fair';
+            return 'performance-poor';
+        }
+        
+        // Функция переключения табов
+        function showTab(tabName) {
+            // Скрыть все табы
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Убрать активный класс с кнопок
+            const buttons = document.querySelectorAll('.tab');
+            buttons.forEach(button => button.classList.remove('active'));
+            
+            // Показать выбранный таб
+            document.getElementById(tabName).classList.add('active');
+            
+            // Добавить активный класс к кнопке
+            event.target.classList.add('active');
+        }
+        
+        // Инициализация
+        fillPerformanceTable();
+    </script>
+</body>
+</html>
+
+
+

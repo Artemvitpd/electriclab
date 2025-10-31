@@ -1,0 +1,37 @@
+[
+  {
+    "file": "demo_startup_1_1760463552.license",
+    "license_key": "NjIzYTgwMzJhOWM2OTk1YjVjYzE0ODIy",
+    "customer_id": "startup_1",
+    "type": "demo",
+    "expires_at": "2025-11-13T22:39:12.659623"
+  },
+  {
+    "file": "demo_startup_2_1760463552.license",
+    "license_key": "MzM5NGEzYjgwODUwMWM2ZTVmMGRjOWZi",
+    "customer_id": "startup_2",
+    "type": "demo",
+    "expires_at": "2025-11-13T22:39:12.660498"
+  },
+  {
+    "file": "standard_company_1_1760463552.license",
+    "license_key": "ZWQ5YzE4M2YxZGRiNDkzZTg0MDc2OTZh",
+    "customer_id": "company_1",
+    "type": "standard",
+    "expires_at": "2026-10-14T22:39:12.662989"
+  },
+  {
+    "file": "professional_company_2_1760463552.license",
+    "license_key": "YzEzZTg5MzAwMWY3OWY2Y2U2NGEyNDMz",
+    "customer_id": "company_2",
+    "type": "professional",
+    "expires_at": "2026-10-14T22:39:12.664980"
+  },
+  {
+    "file": "enterprise_enterprise_1_1760463552.license",
+    "license_key": "Yjc1MjI1NWQwZDY1MzhiODAzZmY1NTgw",
+    "customer_id": "enterprise_1",
+    "type": "enterprise",
+    "expires_at": "2027-10-14T22:39:12.665980"
+  }
+]

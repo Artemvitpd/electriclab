@@ -1,39 +1,6 @@
-# Основные веб-фреймворки
-quart>=0.18.4
-quart-wtf>=0.5.0
-werkzeug>=2.3.7
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pygost>=5.4,<6
+cryptography==43.0.1
+httpx==0.27.2
 
-# Асинхронная работа с файлами
-aiofiles>=23.2.1
-
-# База данных (SQLite встроен в Python)
-sqlalchemy>=2.0.23
-
-# Кэширование и Redis (опционально)
-redis>=5.0.1
-
-# Мониторинг и метрики
-prometheus-flask-exporter>=0.23.0
-
-# Шифрование
-cryptography>=41.0.7
-
-# Машинное обучение
-scikit-learn>=1.3.2
-numpy>=1.24.3
-
-# AWS SDK (опционально)
-boto3>=1.34.0
-
-# Планировщик задач
-schedule>=1.2.0
-
-# Ограничение запросов
-flask-limiter[async]>=3.5.0
-
-# Продакшн сервер
-gunicorn>=21.2.0
-
-# Тестирование
-pytest>=7.4.3
-pytest-asyncio>=0.21.1

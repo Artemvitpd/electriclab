@@ -1,0 +1,38 @@
+version: "3.9"
+services:
+  gov:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        SERVICE: gov
+    environment:
+      HYBRIDCACHE_DIR: /cache
+      HYBRIDCACHE_SOURCE: /source
+      HYBRIDCACHE_ENCRYPTION: "1"
+    volumes:
+      - ./data/gov/cache:/cache
+      - ./data/gov/source:/source
+    ports:
+      - "8080:8080"
+
+  commercial:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        SERVICE: commercial
+    environment:
+      HYBRIDCACHE_DIR: /cache
+      HYBRIDCACHE_SOURCE: /source
+      HYBRIDCACHE_ENCRYPTION: "1"
+      # Set your Base64 32-byte key here (example only!)
+      HYBRIDCACHE_AES_KEY: "MDEyMzQ1Njc4OWFiY2RlZjAxMjM0NTY3ODlhYmNkZWYwMTI="
+    volumes:
+      - ./data/commercial/cache:/cache
+      - ./data/commercial/source:/source
+    ports:
+      - "8081:8081"
+
+
+
